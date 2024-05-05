@@ -1,0 +1,54 @@
+body{
+    height: 90vh;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.item1{
+    background-color: rgb(80, 166, 211);
+    grid-area: 1/1/2/4;
+    height: 10vh;
+    
+    
+    
+}
+.item2{
+    background-color: rgb(213, 154, 76);
+    grid-area: 2/1/4/1;
+    height: 65vh;
+    
+  
+}
+.item3{
+    background-color: rgb(97, 70, 197);
+   
+}
+.item4{
+    background-color: rgb(112, 186, 20);
+   
+    
+}
+.item5{
+    background-color: rgb(236, 95, 44);
+    grid-area: 4/1/4/4;
+    
+
+    
+}
+.item6{
+    background-color: rgb(139, 34, 110);
+    grid-area: 3/2/4/4;
+    
+}
+
+
+.container{
+    width: 1200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+     grid-template-rows: 1fr 1fr 1fr; 
+     /*grid-template-rows: repeat(3,1fr) */ 
+    grid-gap: 30px;
+}
